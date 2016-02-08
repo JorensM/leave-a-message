@@ -27,10 +27,10 @@
     // DB connection info
     //TODO: Update the values for $host, $user, $pwd, and $db
     //using the values you retrieved earlier from the Azure Portal.
-    $host = "value of Data Source";
-    $user = "value of User Id";
-    $pwd = "value of Password";
-    $db = "value of Database";
+    $host = "jorensm.database.windows.net";
+    $user = "JorensM";
+    $pwd = "Brainstorm1";
+    $db = "leaveamessage";
     // Connect to database.
     try {
         $conn = new PDO( "mysql:host=$host;dbname=$db", $user, $pwd);

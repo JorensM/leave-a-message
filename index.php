@@ -28,7 +28,7 @@
     //TODO: Update the values for $host, $user, $pwd, and $db
     //using the values you retrieved earlier from the Azure Portal.
     $host = "jorensm.database.windows.net";
-    $user = "JorensM";
+    $user = "jorens";
     $pwd = "Brainstorm1";
     $db = "leaveamessage";
     // Connect to database.
